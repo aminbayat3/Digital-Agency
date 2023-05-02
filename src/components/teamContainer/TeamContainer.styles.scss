@@ -1,0 +1,39 @@
+.teamContainer {
+    width: 100%;
+    display: flex;
+    background: #1a1a1a;
+    padding: 160px 171px 112px 171px;
+    @media (max-width: 1350px) {
+        padding: 100px 60px 0px 60px;
+        flex-wrap: wrap;
+      }
+      @media (max-width: 1200px) {
+        padding: 64px 48px 0px 48px;
+      }
+      @media (max-width: 800px) {
+        padding: 64px 16px 0px 16px;
+      }
+      @media (max-width: 500px) {
+        padding: 40px 16px 0px 16px;
+      }
+    &__header {
+        font-size: 27px;
+        color: #9e9e9e;
+        width: 40%;
+        @media (max-width: 1350px) {
+            width: 100%;
+            font-size: 22px;
+        }
+
+    }
+    &__members {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        @media (max-width: 1350px) {
+            padding: 40px 0 0 0;
+            width: 100%;
+        }
+    }
+}

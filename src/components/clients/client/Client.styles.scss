@@ -1,0 +1,166 @@
+.client {
+  margin: 0 0 64px 0;
+  overflow: hidden;
+  height: auto;
+  &--homeFacebookSize {
+    width: 65%;
+    margin: 0 0 160px 0;
+    @media (max-width: 800px) {
+      width: 100%;
+      margin: 0 0 64px 0;
+    }
+  }
+  &--homeGoogleSize {
+    width: 30%;
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+  }
+  &--homeJustEatSize {
+    width: 100%;
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+  }
+  &--doneFacebookSize {
+    width: 90%;
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+  }
+  &--doneGoogleSize {
+    width: 60%;
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+  }
+  &--doneAntibiasSize {
+    width: 30%;
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+  }
+  &--doneJustEatSize {
+    width: 30%;
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+  }
+  &--doneCTCPSize {
+    width: 60%;
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+  }
+  &--doneMovingPicSize {
+    width: 60%;
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+  }
+  &__header {
+    font-size: 27px;
+    padding: 16px 0 8px 0;
+    @media (max-width: 800px) {
+      font-size: 24px;
+    }
+    &--home {
+      color: #ffffff;
+    }
+    &--whatwehavedone {
+      color: #1a1a1a;
+    }
+  }
+  &__backgroundImageWrapper {
+    overflow: hidden;
+    width: 100%;
+    &--homeFacebookSize {
+      height: 695px;
+      @media (max-width: 1350px) {
+        height: 574px;
+      }
+      @media (max-width: 1100px) {
+        height: 424px;
+      }
+      @media (max-width: 800px) {
+        height: 215px;
+      }
+    }
+    &--homeGoogleSize {
+      height: 411px;
+      @media (max-width: 1350px) {
+        height: 250px;
+      }
+      @media (max-width: 800px) {
+        height: 215px;
+      }
+    }
+    &--homeJustEatSize {
+      height: 653px;
+      @media (max-width: 1350px) {
+        height: 508px;
+      }
+      @media (max-width: 1100px) {
+        height: 378px;
+      }
+      @media (max-width: 800px) {
+        height: 215px;
+      }
+    }
+    &--doneFacebookSize {
+      height: 653px;
+      @media (max-width: 800px) {
+        height: 215px;
+      }
+    }
+    &--doneGoogleSize {
+      height: 696px;
+      @media (max-width: 800px) {
+        height: 215px;
+      }
+    }
+    &--doneAntibiasSize {
+      height: 411px;
+      @media (max-width: 800px) {
+        height: 215px;
+      }
+    }
+    &--doneJustEatSize {
+      height: 368px;
+      @media (max-width: 800px) {
+        height: 215px;
+      }
+    }
+    &--doneCTCPSize {
+      height: 486px;
+      @media (max-width: 800px) {
+        height: 215px;
+      }
+    }
+    &--doneMovingPicSize {
+      height: 652px;
+      @media (max-width: 800px) {
+        height: 215px;
+      }
+    }
+  }
+  &__image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+      transition: transform 0.5s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+  }
+  &__para {
+    font-size: 23px;
+    color: #9e9e9e;
+    @media (max-width: 800px) {
+      font-size: 18px;
+    }
+  }
+}

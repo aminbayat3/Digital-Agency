@@ -1,0 +1,13 @@
+.offices {
+    display: flex;
+    justify-content: space-between ;
+    padding: 0 0 126px 0;
+    width: 740px;
+    @media (max-width: 1350px) {
+        padding: 88px 0 68px 0;
+        width: 100%;
+      }
+      @media (max-width: 800px) {
+        flex-wrap: wrap;
+      }
+}

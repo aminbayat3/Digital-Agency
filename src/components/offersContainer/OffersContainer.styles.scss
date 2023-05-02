@@ -1,0 +1,27 @@
+.offersContainer {
+  width: 100%;
+  padding: 150px 171px 70px 171px;
+  display: flex;
+  flex-wrap: wrap;
+  @media (max-width: 1350px) {
+    padding: 100px 60px 0px 60px;
+  }
+  @media (max-width: 1200px) {
+    padding: 64px 48px 0px 48px;
+  }
+  @media (max-width: 800px) {
+    padding: 64px 16px 0px 16px;
+  }
+  @media (max-width: 500px) {
+    padding: 40px 16px 0px 16px;
+  }
+  &__offers {
+    width: 60%;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    @media (max-width: 1350px) {
+      width: 100%;
+    }
+  }
+}

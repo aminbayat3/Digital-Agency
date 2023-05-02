@@ -1,0 +1,56 @@
+.banner {
+  width: 100%;
+  padding: 200px 171px 64px 171px;
+  background: #ffffff;
+  @media (max-width: 1350px) {
+    padding: 200px 60px 64px 60px;
+  }
+  @media (max-width: 1200px) {
+    padding: 200px 48px 64px 48px;
+  }
+  @media (max-width: 800px) {
+    padding: 200px 16px 64px 16px;
+  }
+  @media (max-width: 500px) {
+    padding: 150px 16px 64px 16px;
+  }
+  &--home {
+    background: #faff19;
+  }
+  &__content {
+    width: 100%;
+  }
+  &__mainHeader {
+    height: auto;
+    font-size: 80px;
+    color: #1a1a1a;
+    font-weight: 800;
+    @media (max-width: 1350px) {
+      font-size: 70px;
+    }
+    @media (max-width: 1200px) {
+      font-size: 60px;
+    }
+    @media (max-width: 900px) {
+      font-size: 50px;
+    }
+    @media (max-width: 500px) {
+      font-size: 38px;
+    }
+    
+  }
+  &__officeLocations {
+    width: 100%;
+    padding: 26px 0 0 0;
+    font-size: 16px;
+    color: #1a1a1a;
+    font-weight: 500;
+    display: none;
+    @media (max-width: 500px) {
+      font-size: 15px;
+    }
+    &--home {
+      display: block;
+    }
+  }
+}

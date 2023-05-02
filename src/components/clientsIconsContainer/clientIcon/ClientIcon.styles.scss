@@ -1,0 +1,9 @@
+.clientIcon {
+    width: 30%;
+    @media (max-width: 800px) {
+        width: 48%;
+    }
+    &__image {
+        width: 100%;
+    }
+}

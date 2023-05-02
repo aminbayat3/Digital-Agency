@@ -1,0 +1,52 @@
+.headerSection {
+  // padding: 0 130px 0 0;
+  width: 443px;
+  &__title {
+    color: #ffffff;
+    font-size: 27px;
+    @media (max-width: 1350px) {
+      font-size: 22px;
+    }
+    @media (max-width: 800px) {
+      font-size: 18px;
+    }
+    &--whatwehavedone {
+      color: #000000;
+    }
+  }
+  &__subtitle {
+    color: #9e9e9e;
+    font-size: 27px;
+    @media (max-width: 1350px) {
+      font-size: 22px;
+    }
+    @media (max-width: 800px) {
+      font-size: 18px;
+    }
+    &--whatwehavedone {
+      color: #6e6e6e;
+    }
+  }
+  &__mail {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 42px 0 4px 0;
+    background: #1a1a1a;
+    padding: 0 0 6px 0;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px #ffffff solid;
+    @media (max-width: 1350px) {
+      margin: 16px 0 4px 0;
+      font-size: 16px;
+    }
+    @media (max-width: 800px) {
+      font-size: 15px;
+    }
+    &--whatwehavedone {
+      background: #ffffff;
+      border-bottom: 1px #000000 solid;
+      color: #000000;
+    }
+  }
+}
